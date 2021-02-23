@@ -1,0 +1,26 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: yellow;
+    color: black;
+    font-family: 'Exo 2', sans-serif;
+    padding: 1em;
+  }
+  
+  .nav-link {
+    display: flex;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  body {
+    padding-top: 270px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
